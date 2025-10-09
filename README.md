@@ -13,16 +13,15 @@ This website informational portfolio showcasing my academics, resume, and ways t
    - Academic interests and achievements  
 
 3. **Resume (`resume.html`)**  
-   - Embedded PDF of my resume for easy viewing and download  
+   - Embedded PDF of my resume
 
 4. **Contact (`contact.html`)**  
-   - Contact form integrated with Web3Forms for message submission  
-   - Accessible and responsive design
+   - Contact form integrated with Web3Forms for message submission
+   - I will get email when people submit the form
 
 ## Usage
 - Open `index.html` in a web browser to start exploring the site.  
-- Navigation links allow easy access to all pages.  
-- Contact form submissions are handled via Web3Forms.
+- Navigation links on the top left.  
 
 ## Deployment
 - Hosted on GitHub Pages: []
