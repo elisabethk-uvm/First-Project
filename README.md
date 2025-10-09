@@ -24,5 +24,5 @@ This website informational portfolio showcasing my academics, resume, and ways t
 - Navigation links on the top left.  
 
 ## Deployment
-- Hosted on GitHub Pages: []
+- Hosted on GitHub Pages: [https://elisabethk-uvm.github.io/First-Project/contact.html]
 - Source code repository: [https://github.com/ekollrack/personal-website](https://github.com/ekollrack/personal-website)
