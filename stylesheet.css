@@ -1,0 +1,306 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f4f8, #dbe4ec);
+    color: #333;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: rgb(47, 84, 122);
+    color: white;
+    padding: 35px 0 25px 0;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+/* Nav Bar */
+.navbar {
+    background-color: rgb(87, 143, 192);
+    padding: 10px 40px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    display: inline-block;        
+    padding: 10px 25px;         
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 6px;
+    line-height: 1.2;            
+    vertical-align: middle;    
+}
+
+.nav-links a:hover {
+    background-color: black;
+    color: white;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons a img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.nav-icons a img:hover {
+    transform: scale(1.15);
+}
+
+/* About Me */
+#about {
+    padding: 40px 20px;
+}
+
+#about h2 {
+    text-align: center;
+    color: rgb(47, 84, 122);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    margin-left: 0;
+}
+
+.aboutme {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aboutme img {
+    max-width: 220px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.aboutme-text {
+    background-color: rgb(180, 192, 203);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px;
+    line-height: 1.6;
+}
+
+/* Song Choice */
+#song-choice {
+    background-color: rgb(180, 192, 203);
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#song-choice h3 {
+    color: rgb(47, 84, 122);
+    margin-bottom: 15px;
+}
+
+#song-choice video {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+/* Resume  */
+.resume {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.resume h2 {
+    color: rgb(47, 84, 122);
+    border-left: 5px solid rgb(87, 143, 192);
+    padding-left: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.resume iframe {
+    border: none;
+    width: 100%;
+    height: 850px;
+    border-radius: 10px;
+}
+
+/* Contact */
+#contact {
+    padding: 50px 20px;
+    background-color: rgb(180, 192, 203);
+    text-align: center;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+#contact h2 {
+    color: rgb(47, 84, 122);
+    border-left: 5px solid rgb(87, 143, 192);
+    padding-left: 10px;
+    font-size: 1.8em;
+    margin-top: -20px;
+    text-align: left;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px white solid;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 12px;
+    background-color: rgb(47, 84, 122);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: rgb(87, 143, 192);
+}
+
+/* Academics */
+h2 {
+    text-align: center;
+    color: rgb(47, 84, 122);
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+#education, #courses, #projects, #interests, #achievements {
+    background-color: rgb(180, 192, 203);
+    border-radius: 12px;
+    padding: 25px 35px;
+    margin: 30px auto;
+    max-width: 850px;
+}
+
+#education h3, 
+#courses h3, 
+#projects h3, 
+#interests h3, 
+#achievements h3 {
+    color: rgb(47, 84, 122);
+    margin-top: 0;
+}
+
+#education p, 
+#projects ul, 
+#interests p, 
+#achievements ul {
+    color: black;
+    line-height: 1.6;
+}
+
+#projects a {
+    color: rgb(47, 84, 122);
+    text-decoration: none;
+}
+
+#projects a:hover {
+    color: rgb(87, 143, 192);
+    text-decoration: underline;
+}
+
+/* Courses Table */
+#courses table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#courses th, 
+#courses td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+#courses th {
+    background-color: rgb(87, 143, 192);
+    color: white;
+}
+
+#courses tr:hover {
+    background-color: rgb(220, 230, 240);
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(87, 143, 192);
+    color: white;
+    margin-top: 40px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .navbar a {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .aboutme {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme img {
+        margin-bottom: 20px;
+    }
+
+    #contact {
+        padding: 30px 10px;
+    }
+
+    .contact-form {
+        gap: 10px;
+    }
+}
