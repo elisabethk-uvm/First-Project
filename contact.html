@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <h1>Elisabeth Kollrack</h1>
+    </header>
+
+    <div class="navbar">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="academics.html">Academics</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icons">
+            <a href="https://www.linkedin.com/in/elisabeth-kollrack"><img src="linkedin.png" alt="LinkedIn"></a>
+            <a href="https://github.com/ekollrack"><img src="github.png" alt="GitHub"></a>
+            <a href="mailto:elisabethkollrack@gmail.com"><img src="email.png" alt="Email"></a>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://api.web3forms.com/submit" class="contact-form" method="POST">
+            <input type="hidden" name="access_key" value="106c6bb1-6757-4d7f-b1d6-9a7eaaaff4d6">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        &copy; Elisabeth Kollrack 2025
+    </footer>
+</body>
+</html>
