@@ -286,6 +286,13 @@ footer {
         text-align: center;
         padding: 10px 0;
     }
+    .nav-links,
+    .nav-icons {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
 
     .aboutme {
         flex-direction: column;
